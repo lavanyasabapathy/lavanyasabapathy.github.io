@@ -124,7 +124,7 @@ ul {
 }
 
 h1,h2,h3,h4,h5,h6,a,ul,li{
-	line-height: 1;
+	line-height: 2;
 }
 .clear-both:before, 
 .clear-both:after{
