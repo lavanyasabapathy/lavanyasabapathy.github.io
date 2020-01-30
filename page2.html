@@ -43,7 +43,7 @@
 * {font-family: 'Open Sans', sans-serif;}
 
 .rwd-table {
-  margin: auto;
+  margin: left !important;
   min-width: 300px;
   max-width: 100%;
   border-collapse: collapse;
@@ -51,7 +51,7 @@
 
 .rwd-table tr:first-child {
   border-top: none;
-  background: #428bca;
+  background: #2fa9434d;
   color: #fff;
 }
 
@@ -74,11 +74,11 @@
 }
 
 .rwd-table td:first-child {
-  margin-top: .5em;
+  margin-top: 0em;
 }
 
 .rwd-table td:last-child {
-  margin-bottom: .5em;
+  margin-bottom: 0em;
 }
 
 .rwd-table td:before {
@@ -127,19 +127,38 @@
   }
   .rwd-table th:first-child,
   .rwd-table td:first-child {
-    padding-left: 2em !important;
+    padding-left: 0em !important;
+  }
+  .rwd-table td:first-child {
+    padding-right: 1em !important;
+  }
+  .rwd-table td:first-child {
+    padding-top: 0.5em !important;
+  }
+  .rwd-table td:first-child {
+    padding-bottom: 0em !important;
+  }
+  .rwd-table td:last-child{
+    padding-top: 0.5em !important;
+  }
+  .rwd-table td:last-child{
+    padding-bottom: 0em !important;
   }
   .rwd-table th:last-child,
-  .rwd-table td:last-child {
-    padding-right: 2em !important;
+  {
+    padding-right: 0em !important;
   }
   .rwd-table th
-  {
-    padding: 1em !important;
+   {
+    padding: 0em !important;
+  }
+  .rwd-table tr {
+    padding: 0em !important;
   }
   .rwd-table td {
-    padding: 0.5em !important;
+    padding: 0em !important;
   }
+
 }
 
 
@@ -152,9 +171,9 @@ background: -webkit-linear-gradient(to left, #4B79A1 , #283E51);
 background: linear-gradient(to left, #4B79A1 , #283E51);        
 }
 h1 {
-  text-align: center;
-  font-size: 2.5em;
-  color: #ffffff;
+  text-align: left;
+  font-size: 2.8em;
+  color: #000000;
 }
 .container {
   display: block;
@@ -193,6 +212,12 @@ h3:after {
   75%   { transform: translateX(10px)}
   100%  { transform: translateX(0)}
 }
+.row1
+{
+margin-right: -100px;
+margin-left: -100px;
+}
+    
   </style>
 	</head>
 	<body class="apps-craft-v2">
@@ -213,172 +238,30 @@ h3:after {
 
 		<div class="apps-craft-welcome-container">
 			<div class="container">
-				<br>
-<h1>TOWERS AROUND BANGALORE</h1>
-<br>
-<br>
-  <table class="rwd-table">
-    <tbody>
-      <tr>
-        <th>Tower Name</th>
-        <th>Location</th>
-        <th>Health Index</th>
-        <th>Actions</th>
-      </tr>
-      <tr>
-        <td data-th="Supplier Code">
-          Tower1
-        </td>
-        <td data-th="Supplier Name">
-          12.8440° N, 77.6739° E
-        </td>
-       
-        <td data-th="Invoice Date">
-          70.00
-        </td>
-        <td>
-              <a href="page2.html"><button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button></a>
-        </td>
-      </tr>
-      <tr>
-        <td data-th="Supplier Code">
-          Tower2
-        </td>
-        <td data-th="Supplier Name">
-         13.1362° N, 78.1291° E
-        </td>
-        
-        <td data-th="Invoice Date">
-          66.67
-        </td>
-        <td>
-              <a href="page2.html"><button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button></a>
-        </td>
-      </tr>
-      <tr>
-        <td data-th="Supplier Code">
-          Tower3
-        </td>
-        <td data-th="Supplier Name">
-          13.3379° N, 77.1173° E
-        </td>
-        
-        <td data-th="Invoice Date">
-          83.33
-        </td>
-        <td>
-              <a href="page2.html"><button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button></a>
-        </td>
-      </tr>
-      <tr>
-        <td data-th="Supplier Code">
-          Tower4
-        </td>
-        <td data-th="Supplier Name">
-          12.2958° N, 76.6394° E
-        </td>
-        
-        <td data-th="Invoice Date">
-          58.33
-        </td>
-        <td>
-              <a href="page2.html"><button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button></a>
-        </td>
-      </tr>
-      <tr>
-        <td data-th="Supplier Code">
-          Tower5
-        </td>
-        <td data-th="Supplier Name">
-          15.8497° N, 74.4977° E
-        </td>
-        
-        <td data-th="Invoice Date">
-          50.00
-        </td>
-        <td>
-              <a href="page2.html"><button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button></a>
-        </td>
-      </tr>
-      <tr>
-        <td data-th="Supplier Code">
-          Tower6
-        </td>
-        <td data-th="Supplier Name">
-          15.3647° N, 75.1240° E
-        </td>
-        
-        <td data-th="Invoice Date">
-          91.67
-        </td>
-        <td>
-              <a href="page2.html"><button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button></a>
-        </td>
-      </tr>
-       <tr>
-        <td data-th="Supplier Code">
-          Tower7
-        </td>
-        <td data-th="Supplier Name">
-          11.8440° N, 77.6739° E
-        </td>
-        
-        <td data-th="Invoice Date">
-          50.00
-        </td>
-        <td>
-              <a href="page2.html"><button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button></a>
-        </td>
-      </tr>
-       <tr>
-        <td data-th="Supplier Code">
-          Tower8
-        </td>
-        <td data-th="Supplier Name">
-          13.1362° N, 76.1291° E
-        </td>
-        <td data-th="Invoice Date">
-          75.00
-        </td>
-        <td>
-              <a href="page2.html"><button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button></a>
-        </td>
-      </tr>
-      <tr>
-        <td data-th="Supplier Code">
-          Tower9
-        </td>
-        <td data-th="Supplier Name">
-          13.3379° N, 77.1173° E
-        </td>
-        
-        <td data-th="Invoice Date">
-          83.33
-        </td>
-        <td>
-              <a href="page2.html"><button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button></a>
-        </td>
-       </tr>
-       <tr>
-        <td data-th="Supplier Code">
-          Tower10
-        </td>
-        <td data-th="Supplier Name">
-          12.2958° N, 76.6394° E
-        </td>
-        
-        <td data-th="Invoice Date">
-          80.00
-        </td>
-        <td>
-              <a href="page2.html"><button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button></a>
-        </td> 
-      </tr>
-    </tbody>
-  </table>
+
+        <div class="row1">
+          <div class="col-md-6 col-sm-8 col-xs-12">
+            <h1>TOWER 1</h1>
+          </div>
+          <div class="row2">
+            <img src="img/70-icon.png">
+          </div>
+        <table class="rwd-table">
+          <tr>
+            <td><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~lava468/9.embed" height="300" width="600"></iframe></td>
+            
+            <td><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~lava468/10.embed" height="300" width="600"></iframe></td>
+          </tr>
+        </table>
+        <table class="rwd-table">            
+           <tr>
+             <td><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~lava468/11.embed" height="300" width="600"></iframe></td>
+            <td><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~lava468/11.embed" height="300" width="600"></iframe></td>
+           </tr>          
+        </table>
   <!--<h3>Resize Me</h3>-->
 </div>
-		
+</div>		
 </div>
 		</section> <!-- .apps-craft-welcome-section END -->
 
