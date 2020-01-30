@@ -4259,3 +4259,12 @@ video {
 .row1 .row2 {
     padding-left: 1270px !important;
 }
+td.green{
+	color: green;
+}
+td.red{
+	color: red;
+}
+td.blue{
+	color: blue;
+}
