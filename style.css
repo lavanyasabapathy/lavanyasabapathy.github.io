@@ -228,19 +228,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	box-shadow: none;
 }
 
-#preloader {
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-color: #fff;
-	z-index: 99999999999999;
-	background-image: url(Preloader_1.gif);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center center;
-}
+
 .d-flex {
 	display: flex;
 }
@@ -3987,45 +3975,6 @@ div.apps-craft-success-message {
 }
 
 
-/*================================================================= 
-			Preloader 
-=================================================================*/
-
-
-span.apps-craft-loader.apps-craft-loader1 {
-	position: absolute;
-	-webkit-transform: translateY(-50%);
-		transform: translateY(-50%);
-	top: 50%;
-	right: -52px;
-}
-.apps-craft-loader, .apps-craft-loader:before, .apps-craft-loader:after {
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-	vertical-align: middle;
-	border-radius: 30px;
-	border: 5px solid transparent;
-	margin-right: 10px;
-}
-
-/**
- * Loader1
- */
-.apps-craft-loader1 {
-	position: relative;
-	border: 5px solid rgb(29, 70, 82);
-}
-.apps-craft-loader1:after {
-	content:'';
-	position: absolute;
-	top: -5px;
-	left: -5px;
-	border: 5px solid transparent;
-	border-top-color:#fff;
-	-webkit-animation: spin 1s linear infinite;
-		animation: spin 1s linear infinite; 
-}
 
 
 
