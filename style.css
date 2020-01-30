@@ -101,7 +101,7 @@ textarea:active{
 outline: none;
 }
 	img:not([draggable]), embed, object, video{
-	max-width: 100px;
+	max-width: 100px !important;
 	height: auto;
 }
 a,
@@ -4308,5 +4308,5 @@ video {
 }
 
 .row1 .row2 {
-    padding-left: 1270px;
+    padding-left: 1270px !important;
 }
